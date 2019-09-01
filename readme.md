@@ -8,7 +8,8 @@ Small application to get last 50 tweets from any account by command php artisan 
 php artisan migrate
 
 To create command:
-php artisan make:command TweetImport
+php artisan make:command TweetImport. 
+<p>This command is able to access an external Twitter API and save  the last 50 tweets in lwitterapi_db database.
 
 I'm developing the front-end side with VueJS, to show a list with tweets and paginate them.
 
