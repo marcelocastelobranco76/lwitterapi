@@ -10,3 +10,5 @@ php artisan migrate
 To create command:
 php artisan make:command TweetImport
 
+I'm developing the front-end side with VueJS, to show a list with tweets and paginate them.
+
